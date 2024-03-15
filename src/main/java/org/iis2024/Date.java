@@ -55,15 +55,15 @@ public class Date {
   /**
    * Constructs a Date object representing a specific day, month, and year.
    *
-   * @param day The day of the month (1-31).
-   * @param month The month of the year (1-12).
-   * @param year The year (should ideally be within the valid range of 1900 to 2050 for validation
+   * @param pop The day of the month (1-31).
+   * @param pop2 The month of the year (1-12).
+   * @param pop3 The year (should ideally be within the valid range of 1900 to 2050 for validation
    *     to pass).
    */
-  public Date(int day, int month, int year) {
-    this.day = day;
-    this.month = month;
-    this.year = year;
+  public Date(int pop, int pop2, int pop3) {
+    this.day = pop;
+    this.month = pop2;
+    this.year = pop3;
   }
 
   /**
