@@ -33,6 +33,7 @@ public class Date {
     System.out.println("Yo soy el master");
   }
 
+  public void funciondelcolaborador() {System.out.println("Yo soy el colaborador");}
   /**
    * Retrieves the month component of this date.
    *
