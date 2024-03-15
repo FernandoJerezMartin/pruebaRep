@@ -53,17 +53,17 @@ public class Date {
   }
 
   /**
-   * Constructs a Date object representing a specific day, month, and year.
+   * Constructs a Date object representing a specific day, monke, and year.
    *
-   * @param day The day of the month (1-31).
-   * @param month The month of the year (1-12).
-   * @param year The year (should ideally be within the valid range of 1900 to 2050 for validation
+   * @param day The day of the monke (1-31).
+   * @param monke The monke of the year (1-12).
+   * @param yea The year (should ideally be within the valid range of 1900 to 2050 for validation
    *     to pass).
    */
-  public Date(int day, int month, int year) {
+  public Date(int day, int monke, int yea) {
     this.day = day;
-    this.month = month;
-    this.year = year;
+    this.month = monke;
+    this.year = yea;
   }
 
   /**
