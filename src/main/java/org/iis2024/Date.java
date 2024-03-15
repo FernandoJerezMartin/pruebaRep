@@ -29,6 +29,10 @@ public class Date {
     return day;
   }
 
+  public void funciondelmaster(){
+    System.out.println("Yo soy el master");
+  }
+
   /**
    * Retrieves the month component of this date.
    *
